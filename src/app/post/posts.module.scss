@@ -1,0 +1,17 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        padding: 10px;
+    }
+    &__list {
+        border-radius: 5px;
+        padding: 10px 30px;
+        background-color: rgba(128, 128, 128, 0.453);
+        li {
+            margin: 20px 10px;
+        }
+    }
+}
